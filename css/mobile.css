@@ -1,0 +1,321 @@
+header{
+  background-image: url('../images/LB.jpg');
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: 40% 5%;
+
+  
+}
+nav{
+  
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  float: right;
+  margin-top: 3rem;
+  width: 40vw;
+  height: 100px;
+
+  
+  
+
+}
+header .nav-link{
+  display: block;
+  border: 1px solid black;
+
+  color: rgba(255, 255, 255, 0.75);
+  padding-right: 3vw;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+header .nav-link:hover{
+  color: white;
+  font-weight: bolder;
+
+}
+header #logo{
+  display: inline-block;
+
+  margin-top: 1rem;
+  float: left;
+  margin-left: 5%;
+
+  
+}
+header #slogan{
+  display: inline-block;
+  float: left;
+  margin: 100px auto auto 5%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 3em;
+  text-align: left;
+  color: white;
+  font-weight: bolder;
+  
+  
+
+}
+#content{
+  text-align: center;
+}
+.card-body{
+  display: block;
+  width: 90vw;
+  height: 300px;
+  
+  border-radius: 25px;
+  margin: 150px auto;
+  text-decoration: none;
+  
+  
+  text-align: center;
+  
+
+}
+.text-muted{
+  
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 30px;
+  
+  
+  color: rgba(0,0,0,0.5);
+  text-align: center;
+  text-decoration: none;
+  
+  
+
+
+}
+.text-muted:hover{
+  color: black;
+
+}
+.cardlink{
+  text-align: center;
+  text-decoration: none;
+
+}
+.anhcontent{
+  
+  border-radius: 25px;
+}
+#motto{
+  display: block;
+  background-image: url('../images/ali.jpg');
+  width: 100vw;
+  height: 300px;
+  background-size: cover;
+  background-position: 100% 60%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 150%;
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 200px;
+
+
+}
+#motto2{
+  padding-top: 150px;
+}
+#comment{
+  
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 15px;
+
+}
+#contact{
+  
+  text-align: right;
+  
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 15px;
+
+}
+#last{
+  margin-top: 80px;
+}
+footer{
+  
+  margin-top: 50px;
+  text-align: center;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.75);
+  
+  width: 100vw;
+  height: 50px;
+  background-image: url('../images/footer.jpeg');
+  background-size: cover;
+
+}
+footer #footer{
+  padding-top: 1%;
+  text-align: center;
+  
+
+}
+.content2{
+  text-align: left;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 20px;
+}
+ @media (min-width: 900px){
+  
+  header{
+  background-image: url('../images/LB.jpg');
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: 40% 5%;
+
+  
+}
+nav{
+  display: inline-block !important;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  float: right;
+  margin-top: 3rem;
+  width: 50vw;
+}
+header .nav-link{
+  display: inline-block;
+  border: none;
+  color: rgba(255, 255, 255, 0.75);
+  padding-right: 3vw;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+header .nav-link:hover{
+  color: white;
+  font-weight: bolder;
+
+}
+header #logo{
+  display: inline-block;
+
+  margin-top: 1rem;
+  float: left;
+  margin-left: 5%;
+
+  
+}
+header #slogan{
+  display: inline-block;
+  float: left;
+  margin: 160px auto auto 5%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 3em;
+  text-align: left;
+  color: white;
+  font-weight: bolder;
+  
+  
+
+}
+#content{
+  text-align: center;
+  margin-bottom: -200px;
+}
+.card-body{
+  display: inline-block;
+  width: 25vw;
+  height: 40vh;
+  margin-top: 10vh;
+  
+  border-radius: 25px;
+  
+  
+  text-align: center;
+  border: 1px solid black;
+}
+#childhood{
+  margin-right: 4vw;
+}
+#food{
+  margin-left: 4vw;
+}
+.text-muted{
+  position: absolute;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 2vw;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 15vh 5vw 0vh 5vw;
+  text-align: center;
+  padding-left: 3%;
+
+
+}
+.text-muted:hover{
+  color: white;
+
+}
+.cardlink{
+  text-align: center;
+}
+.anhcontent{
+
+  border-radius: 25px;
+}
+#motto{
+  background-image: url('../images/ali.jpg');
+  width: 100vw;
+  height: 300px;
+  background-size: cover;
+  background-position: 100% 60%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 150%;
+  color: rgba(255, 255, 255, 0.75);
+  border: 1px solid black;
+
+
+}
+#motto2{
+  padding-top: 150px;
+}
+#comment{
+  display: inline-block;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 15px;
+
+}
+#contact{
+  display: inline-block;
+  text-align: right;
+  float: right;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 15px;
+
+}
+#last{
+  margin-top: 80px;
+}
+footer{
+  display: block;
+  margin-top: 150px;
+  text-align: center;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.75);
+  
+  width: 100vw;
+  height: 50px;
+  background-image: url('../images/footer.jpeg');
+  background-size: cover;
+
+}
+#footer{
+  padding-top: 10px;
+
+}
+.content2{
+  text-align: left;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 20px;
+}
+#ch{
+  padding-left: 0%;
+}
+}
